@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GeoAgenda2</string>
+    <string name="transition_name_name">transition:NAME</string>
+    <string name="transition_name_apellido1">transition:APELLIDO1</string>
+    <string name="transition_name_apellido2">transition:APELLIDO2</string>
+    <string name="transition_name_circle">transition:CIRCLE</string>
+    <string name="transition_name_phone">transition:PHONE</string>
+    <string name="transition_name_fab">transition:FAB</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="new_contact">Añadir Contacto</string>
+    <string name="phone">Teléfono</string>
+    <string name="address">Dirección</string>
+    <string name="email">Email</string>
+    <string name="name">Nombre</string>
+    <string name="surname_1">Apellido 1</string>
+    <string name="surname_2">Apellido 2</string>
+
+</resources>

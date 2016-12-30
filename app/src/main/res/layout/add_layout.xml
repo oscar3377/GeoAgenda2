@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/lib/com.app.geoagenda2"
+    android:id="@+id/activity_alta_contacto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.upm.etsisi.geoagenda2.AddActivity"
+    android:orientation="vertical"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="0dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="12dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ADD_icono"
+            android:transitionName="@string/transition_name_circle"
+            android:background="#fafafa"
+            android:src="@drawable/account_box" />
+    </LinearLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp">
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_nombre"
+                app:counterEnabled="true"
+                app:counterMaxLenght="30"
+                app:counterTextAppearance="@style/counterText"
+                app:counterOverflowTextAppearance="@style/counterOverride"
+                app:errorEnabled="true"
+                app:hintAnimationEnabled="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_span="2">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:transitionName="@string/transition_name_name"
+                    android:inputType="textPersonName"
+                    android:id="@+id/ADD_name"
+                    android:hint="@string/name" />
+            </android.support.design.widget.TextInputLayout>
+
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_apellido1"
+                app:counterEnabled="true"
+                app:counterMaxLenght="30"
+                app:counterTextAppearance="@style/counterText"
+                app:counterOverflowTextAppearance="@style/counterOverride"
+                app:errorEnabled="true"
+                app:hintAnimationEnabled="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:id="@+id/ADD_apellido1"
+                    android:transitionName="@string/transition_name_apellido1"
+                    android:hint="@string/surname_1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_apellido2"
+                app:counterEnabled="true"
+                app:counterMaxLenght="30"
+                app:counterTextAppearance="@style/counterText"
+                app:counterOverflowTextAppearance="@style/counterOverride"
+                app:errorEnabled="true"
+                app:hintAnimationEnabled="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:id="@+id/ADD_apellido2"
+                    android:transitionName="@string/transition_name_apellido2"
+                    android:hint="@string/surname_2"
+                    android:layout_weight="1" />
+            </android.support.design.widget.TextInputLayout>
+
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_address"
+                app:counterEnabled="true"
+                app:counterMaxLenght="50"
+                app:counterTextAppearance="@style/counterText"
+                app:counterOverflowTextAppearance="@style/counterOverride"
+                app:errorEnabled="true"
+                app:hintAnimationEnabled="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_span="2"  >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:id="@+id/ADD_address"
+                    android:hint="@string/address" />
+            </android.support.design.widget.TextInputLayout>
+
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_email"
+                app:errorEnabled="true"
+                app:hintAnimationEnabled="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_span="2"  >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/ADD_email"
+                    android:hint="@string/email"  />
+            </android.support.design.widget.TextInputLayout>
+
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_phone"
+                app:errorEnabled="true"
+                app:hintAnimationEnabled="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_span="2"  >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:id="@+id/ADD_phone"
+                    android:transitionName="@string/transition_name_phone"
+                    android:hint="@string/phone"
+                    tools:textStyle="bold" />
+            </android.support.design.widget.TextInputLayout>
+
+        </TableRow>
+    </TableLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom">
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/cancel"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:clickable="true"
+            android:contentDescription="@string/new_contact"
+            android:elevation="6dp"
+            android:src="@drawable/ic_check_white_36dp"
+            android:transitionName="@string/transition_name_fab"
+            android:tint="@android:color/white"
+            app:backgroundTint="@color/colorAccent" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:clickable="true"
+            android:contentDescription="@string/new_contact"
+            android:elevation="6dp"
+            android:src="@drawable/ic_undo_white_36dp"
+            android:tint="@android:color/white"
+            app:backgroundTint="@android:color/holo_red_light"
+            app2:backgroundTint="@android:color/holo_red_light" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#795548</color>
+    <color name="colorPrimaryDark">#5D4037</color>
+    <color name="colorAccent">#ffc107</color>
+    <color name="primary">#795548</color>
+    <color name="primary_dark">#5d4037</color>
+    <color name="primary_light">#4cd7ccc8</color>
+    <color name="accent">#FFC107</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <item name="A" type="color">#795548</item>
+    <item name="B" type="color">#895548</item>
+    <item name="C" type="color">#995548</item>
+    <item name="D" type="color">#A95548</item>
+    <item name="E" type="color">#B95548</item>
+    <item name="F" type="color">#C95548</item>
+    <item name="G" type="color">#d95548</item>
+    <item name="H" type="color">#e95548</item>
+    <item name="I" type="color">#f95548</item>
+    <item name="J" type="color">#F99348</item>
+    <item name="K" type="color">#E99348</item>
+    <item name="L" type="color">#D99348</item>
+    <item name="M" type="color">#C99348</item>
+    <item name="N" type="color">#B99348</item>
+    <item name="Ñ" type="color">#A99348</item>
+    <item name="O" type="color">#999348</item>
+    <item name="P" type="color">#899348</item>
+    <item name="Q" type="color">#799348</item>
+    <item name="R" type="color">#B6B6B6</item>
+    <!--<item name="R" type="color">#695548</item>-->
+    <item name="S" type="color">#595548</item>
+    <item name="T" type="color">#495548</item>
+    <item name="U" type="color">#395548</item>
+    <item name="V" type="color">#195548</item>
+    <item name="W" type="color">#095548</item>
+    <item name="X" type="color">#48695f</item>
+    <item name="Y" type="color">#58695f</item>
+    <item name="Z" type="color">#68695f</item>
+
+    <integer-array name="initial_colors">
+        <item>@color/A</item>
+        <item>@color/B</item>
+        <item>@color/C</item>
+        <item>@color/D</item>
+        <item>@color/E</item>
+        <item>@color/F</item>
+        <item>@color/G</item>
+        <item>@color/H</item>
+        <item>@color/I</item>
+        <item>@color/J</item>
+        <item>@color/K</item>
+        <item>@color/L</item>
+        <item>@color/M</item>
+        <item>@color/N</item>
+        <item>@color/Ñ</item>
+        <item>@color/O</item>
+        <item>@color/P</item>
+        <item>@color/Q</item>
+        <item>@color/R</item>
+        <item>@color/S</item>
+        <item>@color/T</item>
+        <item>@color/U</item>
+        <item>@color/V</item>
+        <item>@color/W</item>
+        <item>@color/X</item>
+        <item>@color/Y</item>
+        <item>@color/Z</item>
+    </integer-array>
+</resources>
